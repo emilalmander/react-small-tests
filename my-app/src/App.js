@@ -7,11 +7,12 @@ import Home from './components/Home';
 import Content from './components/Content';
 import ControlledForm from './components/ControlledForm';
 import UnontrolledForm from './components/UnontrolledForm';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
     <div className="App">
-      <ControlledForm/>
+      <SearchBar/>
       
     </div>
   );
