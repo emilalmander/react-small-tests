@@ -7,7 +7,8 @@ export class Content extends Component {
       super(props)
     
       this.state = {
-        isLoaded: false
+        isLoaded: false,
+        posts: []
       }
     }
     componentDidMount() {
@@ -15,7 +16,7 @@ export class Content extends Component {
         setTimeout(() => {
           
           this.setState({
-            
+            posts: savedPosts,
             isLoaded: true,
           });
         }, 2000);
