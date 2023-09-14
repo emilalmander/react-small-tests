@@ -4,11 +4,12 @@ import Login from './components/Login';
 import Submit from './components/submit';
 import LoginPage from './components/LoginPage';
 import Home from './components/Home';
+import Content from './components/Content';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Content/>
       
     </div>
   );
